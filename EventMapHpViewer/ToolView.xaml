@@ -38,7 +38,7 @@
         <Border Grid.Row="0"
                 BorderThickness="0,0,0,1"
                 BorderBrush="{DynamicResource ActiveBorderBrushKey}">
-            <TextBlock Text="攻略中マップ"
+			<TextBlock Text="Captured map"
                        Style="{DynamicResource HeaderTextStyleKey}"
                        Margin="10,0,10,10"/>
         </Border>
@@ -143,10 +143,10 @@
                                            HorizontalAlignment="Right"
                                            VerticalAlignment="Center"
                                            Margin="3,0,7,0">
-                                    <Run Text="後"/>
+                                    <Run Text=""/>
                                     <Run Text="{Binding RemainingCount}"
                                             Style="{DynamicResource EmphaticTextElementStyleKey}"/>
-                                    <Run Text="回"/>
+                                    <Run Text="kills remains"/>
                                 </TextBlock>
                             </Grid>
                         </Border>
@@ -158,10 +158,10 @@
                    Style="{DynamicResource DefaultTextStyleKey}"
                    TextWrapping="WrapWithOverflow"
                    Margin="5,15">
-            ※出撃(海域選択)画面を開いた際に更新されます。<LineBreak/>
-            ※イベントマップのHPは、ボス旗艦のHPを削ると連動して減少します。<LineBreak/>
+            ※Go to sortie selection section to refresh<LineBreak/>
+            ※Event map's HP decreases by the amount of damage that the flagship of boss node had taken.<LineBreak/>
             <LineBreak/>
-            ■対応イベント: 2014夏～2015冬<LineBreak/>
+            ■Support event: Summer 2014 ～ Spring 2015<LineBreak/>
         </TextBlock>
     </Grid>
 </UserControl>
