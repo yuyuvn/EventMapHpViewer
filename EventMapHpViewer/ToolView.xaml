@@ -4,7 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:EventMapHpViewer"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"
+			 MaxWidth="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ContentControl}}, Mode=OneWay}"
              d:DesignHeight="300"
              d:DesignWidth="500"
              d:DataContext="{d:DesignData /SampleData/ToolViewModelSampleData.xaml}">
@@ -21,7 +22,7 @@
                 
                 <ResourceDictionary Source="pack://application:,,,/KanColleViewer;component/Styles/Colors.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/KanColleViewer;component/Styles/Controls.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/KanColleViewer;component/Themes/Generic.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/KanColleViewer;component/Themes/Generic.xaml" />-->
             </ResourceDictionary.MergedDictionaries>
             <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
         </ResourceDictionary>
