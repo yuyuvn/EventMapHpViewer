@@ -1,4 +1,4 @@
-MapHpViewer
+MapHP Plugin
 ================
 
 KanColleViewer で、攻略中マップのHPと最低必要撃破回数を一覧表示するプラグインです。
@@ -8,13 +8,10 @@ KanColleViewer で、攻略中マップのHPと最低必要撃破回数を一覧
 
 ### 対応イベント
 
+* 2015春
 * 2015冬
 * 2014秋
 * 2014夏
-
-### 動作環境
-
-* KanColleViewer version 3.7 以上
 
 ### インストール
 
@@ -23,9 +20,10 @@ KanColleViewer で、攻略中マップのHPと最低必要撃破回数を一覧
 ### 使用ライブラリ
 
 * [KanColleViewer](http://grabacr.net/kancolleviewer)
+* [MetroRadiance](https://www.nuget.org/packages/MetroRadiance)
 * [Reactive Extensions](http://rx.codeplex.com/)
-* [Livet](http://ugaya40.net/livet)
-* [FiddlerCore](http://fiddler2.com/fiddlercore)
+* [Livet](http://ugaya40.hateblo.jp/entry/Livet)
+* [FiddlerCore](http://www.telerik.com/fiddler/fiddlercore)
 
 
 #### ライセンス
