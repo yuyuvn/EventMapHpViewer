@@ -165,7 +165,7 @@
                                            VerticalAlignment="Center"
                                            Margin="3,0,7,0"
                                            Visibility="{Binding IsSupported, Converter={StaticResource FalseToVisibleConverter}}"
-                                           Text="未対応"/>
+                                           Text="Unsupported"/>
 
 
                                 <Grid x:Name="UnselectedIndicator"
@@ -176,7 +176,7 @@
                                       Visibility="{Binding IsRankSelected, Converter={StaticResource FalseToVisibleConverter}}">
                                     <Border Background="{DynamicResource ThemeBrushKey}"
                                             Margin="0" />
-                                    <TextBlock Text="難易度を選択してください"
+                                    <TextBlock Text="Please chose difficult"
                                                VerticalAlignment="Center"
                                                HorizontalAlignment="Center" />
                                 </Grid>
