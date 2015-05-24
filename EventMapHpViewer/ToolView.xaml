@@ -155,7 +155,7 @@
                                     <Run Text=""/>
                                     <Run Text="{Binding RemainingCount}"
                                          Style="{DynamicResource EmphaticTextElementStyleKey}"/>
-                                    <Run Text="kills remains"/>
+                                    <Run Text="kills remain"/>
                                 </TextBlock>
                                 
                                 <TextBlock Grid.Column="3"
@@ -176,7 +176,7 @@
                                       Visibility="{Binding IsRankSelected, Converter={StaticResource FalseToVisibleConverter}}">
                                     <Border Background="{DynamicResource ThemeBrushKey}"
                                             Margin="0" />
-                                    <TextBlock Text="Please chose difficult"
+                                    <TextBlock Text="Please choose difficulty"
                                                VerticalAlignment="Center"
                                                HorizontalAlignment="Center" />
                                 </Grid>
@@ -191,9 +191,9 @@
                    TextWrapping="WrapWithOverflow"
                    Margin="5,15">
             ※Go to sortie selection section to refresh<LineBreak/>
-            ※Event map's HP decreases by the amount of damage that the flagship of boss node had taken.<LineBreak/>
+            ※Event map's HP decreases by the amount of damage that the flagship of boss node has taken.<LineBreak/>
             <LineBreak/>
-            ■Support event: Summer 2014 ～ Spring 2015<LineBreak/>
+            ■Supported events: Summer 2014 ～ Spring 2015<LineBreak/>
         </TextBlock>
     </Grid>
 </UserControl>
