@@ -35,12 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BCMakeCert">
-      <HintPath>..\packages\FiddlerCore.4.4.8.4\lib\net40\BCMakeCert.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\packages\FiddlerCore.4.5.1.0\lib\net40\BCMakeCert.dll</HintPath>
     </Reference>
     <Reference Include="CertMaker">
-      <HintPath>..\packages\FiddlerCore.4.4.8.4\lib\net40\CertMaker.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\packages\FiddlerCore.4.5.1.0\lib\net40\CertMaker.dll</HintPath>
     </Reference>
     <Reference Include="Desktop.Metro, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -48,8 +46,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="FiddlerCore4">
-      <HintPath>..\packages\FiddlerCore.4.4.8.4\lib\net40\FiddlerCore4.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\packages\FiddlerCore.4.5.1.0\lib\net40\FiddlerCore4.dll</HintPath>
     </Reference>
     <Reference Include="KanColleViewer">
       <HintPath>KanColleViewerAssemblies\KanColleViewer.exe</HintPath>
